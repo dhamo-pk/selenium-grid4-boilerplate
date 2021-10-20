@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Suite" parallel="tests">
+    <test name="Test1  " parallel="methods" thread-count="15">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="SecondTest">
+            </class>
+        </classes>
+    </test> <!-- First Test -->
+    <test name="Test2" parallel="methods" thread-count="15">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="FirstTest">
+            </class>
+        </classes>
+    </test> <!-- First Test -->
+    <test name="Test12" parallel="methods" thread-count="15">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="FirstTest">
+            </class>
+        </classes>
+    </test> <!-- First Test -->
+    <test name="Test132" parallel="methods" thread-count="15">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="FirstTest">
+            </class>
+        </classes>
+    </test> <!-- First Test -->
+    <test name="Test332" parallel="methods" thread-count="15">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="FirstTest">
+            </class>
+        </classes>
+    </test> <!-- First Test -->
+    <test name="Test24" parallel="methods" thread-count="15">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="FirstTest">
+            </class>
+        </classes>
+    </test> <!-- First Test -->
+    <test name="Test553" parallel="methods" thread-count="5">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="FirstTest">
+            </class>
+        </classes>
+    </test> <!-- First Test -->
+    <test name="Test4" parallel="methods" thread-count="5">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="FirstTest">
+            </class>
+        </classes>
+    </test> <!-- First Test -->
+    <test name="Test5" parallel="methods" thread-count="5">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="FirstTest">
+            </class>
+        </classes>
+    </test> <!-- First Test -->
+    <!--<test name="Test6" parallel="methods" thread-count="5">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="FirstTest">
+            </class>
+        </classes>
+    </test> &lt;!&ndash; First Test &ndash;&gt;
+    <test name="Test7" parallel="methods" thread-count="5">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="FirstTest">
+            </class>
+        </classes>
+    </test> &lt;!&ndash; First Test &ndash;&gt;
+    <test name="Test8" parallel="methods" thread-count="5">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="FirstTest">
+            </class>
+        </classes>
+    </test> &lt;!&ndash; First Test &ndash;&gt;
+    <test name="Test9" parallel="methods" thread-count="5">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="FirstTest">
+            </class>
+        </classes>
+    </test> &lt;!&ndash; First Test &ndash;&gt;
+    <test name="Test10" parallel="methods" thread-count="5">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="FirstTest">
+            </class>
+        </classes>
+    </test> &lt;!&ndash; First Test &ndash;&gt;
+    <test name="Test11" parallel="methods" thread-count="5">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="FirstTest">
+            </class>
+        </classes>
+    </test> &lt;!&ndash; First Test &ndash;&gt;
+    <test name="Test12" parallel="methods" thread-count="5">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="FirstTest">
+            </class>
+        </classes>
+    </test> &lt;!&ndash; First Test &ndash;&gt;
+    <test name="Test13" parallel="methods" thread-count="5">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="FirstTest">
+            </class>
+        </classes>
+    </test> &lt;!&ndash; First Test &ndash;&gt;
+    <test name="Test14" parallel="methods" thread-count="5">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="FirstTest">
+            </class>
+        </classes>
+    </test> &lt;!&ndash; First Test &ndash;&gt;
+    <test name="Test15" parallel="methods" thread-count="5">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="FirstTest">
+            </class>
+        </classes>
+    </test> &lt;!&ndash; First Test &ndash;&gt;
+    <test name="Test16" parallel="methods" thread-count="5">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="FirstTest">
+            </class>
+        </classes>
+    </test> &lt;!&ndash; First Test &ndash;&gt;
+    <test name="Test17" parallel="methods" thread-count="5">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="FirstTest">
+            </class>
+        </classes>
+    </test> &lt;!&ndash; First Test &ndash;&gt;
+
+    <test name="Test18" parallel="methods" thread-count="5">
+        <parameter name="browser" value="edge"/>
+        <classes>
+            <class name="FirstTest">
+                <methods>
+
+                    <include name="GOOGLE2" />
+                    <include name="GOOGLE3" />
+                </methods>
+            </class>
+        </classes>
+    </test> &lt;!&ndash; First Test &ndash;&gt;
+    <test name="Test19"  parallel="methods" thread-count="5">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="SecondTest">
+                <methods>
+                    <include name="GOOGLE4" />
+                    <include name="YANDEX" />
+                </methods>
+            </class>
+        </classes>
+    </test> &lt;!&ndash; Second Test &ndash;&gt;-->
+</suite> <!-- Suite -->
